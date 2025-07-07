@@ -1,0 +1,30 @@
+/* Estilo geral do Header da aplicação */
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-bottom: var(--secondary-color) 1px solid;
+}
+
+/* Estilo do container do Header */
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.header-container h2 {
+  color: var(--accent-color);
+  margin: 20px;
+}
+
+.header-container a {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin: 20px;
+}

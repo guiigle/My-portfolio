@@ -1,13 +1,12 @@
-import { NavLink } from 'react-router-dom';
 import './style.css';
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <NavLink to="">Home</NavLink>
-        <NavLink to="/asas">Not Found Test</NavLink>
-      </nav>
+    <header className='header-section'>
+      <div className='header-container'>
+        <h2>Guilherme</h2>
+        <a href=""><i className="bi bi-whatsapp"></i> Fale comigo</a>
+      </div>
     </header>
   )
 }

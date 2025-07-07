@@ -1,0 +1,17 @@
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  justify-content: center;
+  height: 15vh;
+  border-top: var(--secondary-color) 1px solid;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}

@@ -1,0 +1,18 @@
+.hero-section {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+}

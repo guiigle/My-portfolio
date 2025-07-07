@@ -1,9 +1,10 @@
 import AboutMeSection from "../../components/AboutMe";
+import HeroSection from "../../components/Hero";
 
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <HeroSection />
       <AboutMeSection />
     </div>
   )
