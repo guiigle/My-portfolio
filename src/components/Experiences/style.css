@@ -1,0 +1,65 @@
+/* Estilo Geral da seção de experiencias */
+.experiences-section {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+/* Estilo do container dos componentes da seção de experiencias */
+.experiences-section-container {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Estilo do bloco esquerdo do container de experiencias */
+.experiences-container-left {
+  display: flex;
+  width: 30%;
+  background-color: var(--accent-color-black);
+}
+
+/* Estilo do grupo de botões do container de experiencias */
+.experiences-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: var(--accent-color-black);
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-left: 4px solid var(--accent-color-black);
+}
+
+.experience-button:hover {
+  color: var(--accent-color);
+  border-left: 4px solid var(--accent-color);
+}
+
+/* Estilo do bloco direito do container de experiencias */
+.experiences-container-right {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: var(--text-color);
+  width: 70%;
+}
+
+.experiences-container-right h2 {
+  color: var(--accent-color);
+  margin-bottom: 30px;
+}

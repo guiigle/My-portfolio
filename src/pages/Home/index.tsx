@@ -1,4 +1,6 @@
 import AboutMeSection from "../../components/AboutMe";
+import ExperiencesSection from "../../components/Experiences";
+import HabilitiesSection from "../../components/Habilities";
 import HeroSection from "../../components/Hero";
 
 function Home() {
@@ -6,6 +8,8 @@ function Home() {
     <div>
       <HeroSection />
       <AboutMeSection />
+      <ExperiencesSection />
+      <HabilitiesSection />
     </div>
   )
 }
