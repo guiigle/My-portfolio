@@ -13,7 +13,8 @@
   font-weight: 500;
   --primary-color: #090909;
   --secondary-color: #1f1f1f;
-  --text-color: rgb(220, 220, 220);
+  --text-color: #dcdcdc;
+  --hover-color: rgb(136, 136, 136);
   --accent-color: #9534fc;
   --accent-color-black: #06020b;
   --black-color: #010003;
