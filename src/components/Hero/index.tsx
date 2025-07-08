@@ -1,10 +1,12 @@
+import { HeroContent } from './content';
 import './style.css'
 
 function HeroSection() {
   return (
     <section className="hero-section">
       <div className="hero-container">
-        <h1>I am a Hero section</h1>
+        <h1>{HeroContent.title}</h1>
+        <p>{HeroContent.description}</p>
       </div>
     </section>
   )

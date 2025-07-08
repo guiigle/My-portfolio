@@ -13,5 +13,5 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: var(--default-width-container);
 }

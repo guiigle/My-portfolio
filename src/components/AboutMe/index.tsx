@@ -1,5 +1,5 @@
 import { AboutMeContent } from "./content";
-import Image from './image.jpg'
+import Image from './image.png'
 import './style.css';
 
 function AboutMeSection() {
@@ -17,7 +17,7 @@ function AboutMeSection() {
           </div>
           <div className="aboutme-socials">
             <a target="_blank" href=""><i className="bi bi-instagram"></i></a>
-            <a target="_blank" href="https://github.com/goliveira-dev"><i className="bi bi-github"></i></a>
+            <a target="_blank" href="https://github.com/guiigle"><i className="bi bi-github"></i></a>
             <a target="_blank" href=""><i className="bi bi-linkedin"></i></a>
           </div>
         </div>

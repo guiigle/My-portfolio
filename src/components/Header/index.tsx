@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className='header-section'>
       <div className='header-container'>
-        <h2>Guilherme</h2>
+        <h2>{`Guiigle`}</h2>
         <a href=""><i className="bi bi-whatsapp"></i> Fale comigo</a>
       </div>
     </header>
