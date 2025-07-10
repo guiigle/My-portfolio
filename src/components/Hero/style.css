@@ -1,4 +1,4 @@
-@media(min-width: 368px) {
+@media(min-width: 128px) {
    .hero-section {
      color: var(--accent-color);
      background-color: var(--accent-color-black);

@@ -1,42 +1,44 @@
 /* Estilo geral do Header da aplicação */
-.header-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--black-color);
-  border-bottom: var(--secondary-color) 1px solid;
-}
-
-/* Estilo do container do Header */
-
-.header-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  height: 8vh;
-}
-
-.header-container h2 {
-  font-size: 0.6rem;
-  border-radius: 5px;
-  font-family: logo;
-  color: var(--accent-color);
-}
-
-.header-container h2:hover {
-  cursor: default;
-}
-
-.header-container a {
-  color: var(--text-color);
-  text-decoration: none;
-  font-size: 0.8rem;
-  transition: all 0.5s ease; 
-}
-
-.header-container a:hover {
-  color: var(--accent-color);
+@media(min-width: 128px) {
+  .header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-color);
+    border-bottom: var(--secondary-color) 1px solid;
+  }
+  
+  /* Estilo do container do Header */
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 8vh;
+  }
+  
+  .header-container h2 {
+    font-size: 0.6rem;
+    border-radius: 5px;
+    font-family: logo;
+    color: var(--accent-color);
+  }
+  
+  .header-container h2:hover {
+    cursor: default;
+  }
+  
+  .header-container a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease; 
+  }
+  
+  .header-container a:hover {
+    color: var(--accent-color);
+  }
 }
