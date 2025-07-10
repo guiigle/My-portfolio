@@ -9,6 +9,7 @@
     height: 60vh;
     padding-top: 7vh;
     padding-bottom: 7vh;
+    border-bottom: var(--secondary-color) 1px solid;
   }
   
   /* Estilo do container dos componentes da seção de experiencias */

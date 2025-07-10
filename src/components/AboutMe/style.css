@@ -11,6 +11,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: var(--accent-color-black);
+    border-bottom: var(--secondary-color) 1px solid;
   }
   
   /* Estilo do container onde são exibidas as informações da seção 'Sobre mim' */

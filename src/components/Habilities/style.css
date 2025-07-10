@@ -3,56 +3,55 @@
   background-color: var(--accent-color-black);
   color: var(--text-color);
   display: flex;
-  align-items: center;
-  min-height: 60vh;
+  height: 80vh;
   justify-content: center;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  align-items: start;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
 }
 
 /* Estilo do container onde serão exibidas as informações na seção de Habilidades */
 .container-habilities {
-  width: var(--default-width-container);
+  width: var(--mobile-width-container);
+  flex-direction: column-reverse;
   display: flex;
   height: auto;
-  justify-content: center;
+  align-items: center;
 }
 
 /* Estilo do lado esquerdo da seção de Habilidades */
 .container-habilities-left {
   display: flex;
-  align-items: end;
-  width: 50%;
-  height: 100%;
-  padding-top: 1%;
+  justify-content: center;
+  width: 100%;
 }
 
 .habilities-section-content {
-  padding: 30px;
+  padding-top: 5px;
+  text-align: center;
 }
 
 .habilities-section-content h1 {
-  padding-bottom: 25px;
   color: var(--accent-color);
+  font-size: 1.5rem;
 }
 
 .habilities-section-content h2 {
-  padding-bottom: 25px;
   color: var(--accent-color);
   transition: all 0.5s ease;
+  font-size: 1rem;
+  padding: 10px;
 }
 
 .habilities-section-content p {
-  font-size: 1.1  rem;
+  font-size: 0.825rem;
 }
 
 /* Estilo do lado direito da seção de habilidades */
 .container-section-right {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%; 
+  height: auto; 
 }
 
 /* Estilo do conjunto de icones da seção */
@@ -65,7 +64,7 @@
 }
 
 .habilities-section-icon {
-  width: 15%;
+  width: 10%;
   padding: 15px;
   border: 2px solid var(--secondary-color);
   color: var(--accent-color);
