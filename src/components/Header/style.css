@@ -15,16 +15,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: var(--default-width-container);
+  width: 90%;
+  height: 8vh;
 }
 
 .header-container h2 {
-  font-size: 1.2rem;
-  margin: 20px;
-  padding-bottom: 4px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 0.6rem;
   border-radius: 5px;
   font-family: logo;
   color: var(--accent-color);
@@ -37,12 +33,10 @@
 .header-container a {
   color: var(--text-color);
   text-decoration: none;
-  margin: 20px;
-  border-bottom: var(--secondary-color) 1px solid ;
+  font-size: 0.8rem;
   transition: all 0.5s ease; 
-  padding: 5px;
 }
 
 .header-container a:hover {
-  border-bottom: var(--accent-color) 1px solid;
+  color: var(--accent-color);
 }
