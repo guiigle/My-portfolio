@@ -1,73 +1,92 @@
-/* Estilo Geral da seção de experiencias */
-.experiences-section {
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 40vh;
-  padding-top: 7vh;
-  padding-bottom: 7vh;
-}
+@media(min-width: 128px) {
+  /* Estilo Geral da seção de experiencias */
+  .experiences-section {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+  }
+  
+  /* Estilo do container dos componentes da seção de experiencias */
+  .experiences-section-container {
+    width: var(--mobile-width-container);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Estilo do bloco esquerdo do container de experiencias */
+  .experiences-container-left {
+    display: flex;
+    flex-direction: column;
+  }
 
-/* Estilo do container dos componentes da seção de experiencias */
-.experiences-section-container {
-  width: var(--default-width-container);
-  height: 90%;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-}
-
-/* Estilo do bloco esquerdo do container de experiencias */
-.experiences-container-left {
-  display: flex;
-  width: 30%;
-  background-color: var(--accent-color-black);
-}
-
-/* Estilo do grupo de botões do container de experiencias */
-.experiences-buttons {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.experience-button {
-  width: 100%;
-  min-height: 50px;
-  border: none;
-  background-color: var(--accent-color-black);
-  color: var(--text-color);
-  font-size: 1.2rem;
-  font-weight: 600;
-  border-left: 4px solid var(--accent-color-black);
-  transition: all 0.3s ease;
-}
-
-.experience-button:hover {
-  /* border-left: 4px solid var(--hover-color); */
-  color: var(--hover-color);
-}
-
-.experience-button:focus {
-  color: var(--accent-color);
-  border-left: 4px solid var(--accent-color);
-}
-
-/* Estilo do bloco direito do container de experiencias */
-.experiences-container-right {
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  color: var(--text-color);
-  width: 70%;
-}
-
-.experiences-container-right h2 {
-  color: var(--accent-color);
-  margin-bottom: 30px;
+  .experiences-container-left h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--accent-color);
+  }
+  
+  /* Estilo do grupo de botões do container de experiencias */
+  .experiences-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .experience-button {
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    background-color: var(--primary-color-black);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-left: 4px solid var(--accent-color-black);
+    transition: all 0.3s ease;
+    border: var(--secondary-color) 1px solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .experience-button:hover {
+    color: var(--hover-color);
+  }
+  
+  .experience-button:focus {
+    color: var(--accent-color);
+    background-color: var(--accent-color-black);
+    border-bottom: var(--accent-color-black) 1px solid;
+  }
+  
+  /* Estilo do bloco direito do container de experiencias */
+  .experiences-container-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent-color-black);
+    color: var(--text-color);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: var(--secondary-color) 1px solid;
+    border-left: var(--secondary-color) 1px solid;
+    border-right: var(--secondary-color) 1px solid;
+    font-size: 0.825rem;
+    height: 100%;
+  }
+  
+  .experiences-container-right h2 {
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
 }
 

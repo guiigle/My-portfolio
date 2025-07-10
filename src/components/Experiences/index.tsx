@@ -15,6 +15,7 @@ function ExperiencesSection() {
     <section className="experiences-section">
       <div className="experiences-section-container">
         <div className="experiences-container-left">
+          <h1>Minhas Experiências</h1>
           <div className="experiences-buttons">
             {
               experiencesContent.map((experience, index) => (
@@ -30,8 +31,10 @@ function ExperiencesSection() {
 
         </div>
         <div className="experiences-container-right">
+          <div className="experiences-content-container">
             <h2>{contentShow?.title}</h2>
             <p>{contentShow?.content}</p>
+          </div>
         </div>
       </div>
     </section>
