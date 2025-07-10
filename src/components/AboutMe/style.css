@@ -1,80 +1,82 @@
-/* Estilo geral da seção 'Sobre mim' */
-.aboutme-section {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  background-color: var(--primary-color);
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: var(--accent-color-black);
-}
-
-/* Estilo do container onde são exibidas as informações da seção 'Sobre mim' */
-.aboutme-container {
-  display: flex;
-  border: var(--secondary-color) 3px solid;
-  border-radius: 15px;
-  width: var(--default-width-container);
-  height: 100%;
-  background-color: var(--primary-color);
-}
-
-/* Estilo do container esquerdo, onde é exibida a imagem da seção */
-.aboutme-container-left {
-  width: 50%;
-  min-height: 50vh;
-  height: auto;
-  padding: 10px;
-}
-
-.aboutme-container-left img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10PX;
-}
-
-/* Estilo do container direito, onde são exibidas as informações da seção */
-.aboutme-container-right {
-  padding: 50px;
-  padding-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--text-color);
-  width: 50%;
-}
-
-.aboutme-content p {
-  margin-top: 20px;
-}
-
-.aboutme-content h2{
-  color: var(--accent-color);
-}
-
-.aboutme-socials {
-  width: 100%;
-  display: flex;
-  justify-content: end;
-  margin-top: 30px;
-}
-
-.aboutme-socials a {
-  color: var(--accent-color);
-  padding: 7px;
-  margin: 12px;
-  font-size: 30px;
-  border: var(--secondary-color) 2px solid;
-  border-radius: 7px;
-  transition: all 0.5s ease;
-  background-color: var(--accent-color-black);
-}
-
-.aboutme-socials a:hover {
-  border: var(--accent-color) 2px solid;
+@media(min-width: 128px) {
+  /* Estilo geral da seção 'Sobre mim' */
+  .aboutme-section {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--accent-color-black);
+  }
+  
+  /* Estilo do container onde são exibidas as informações da seção 'Sobre mim' */
+  .aboutme-container {
+    display: flex;
+    flex-direction: column;
+    border: var(--secondary-color) 3px solid;
+    border-radius: 8px;
+    width: var(--mobile-width-container);
+    height: 100%;
+    background-color: var(--primary-color);
+  }
+  
+  /* Estilo do container esquerdo, onde é exibida a imagem da seção */
+  .aboutme-container-left {
+    height: auto;
+    padding: 5px;
+    display: flex;
+  }
+  
+  .aboutme-container-left img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  /* Estilo do container direito, onde são exibidas as informações da seção */
+  .aboutme-container-right {
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+  }
+  
+  .aboutme-content p {
+    margin-top: 20px;
+    font-size: 0.825rem;
+  }
+  
+  .aboutme-content h2{
+    color: var(--accent-color);
+    font-size: 1.5rem;
+  }
+  
+  .aboutme-socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .aboutme-socials a {
+    color: var(--accent-color);
+    padding: 7px;
+    margin: 8px;
+    font-size: 30px;
+    border: var(--secondary-color) 2px solid;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    background-color: var(--accent-color-black);
+  }
+  
+  .aboutme-socials a:hover {
+    border: var(--accent-color) 2px solid;
+  }
 }
