@@ -18,7 +18,7 @@ function AboutMeSection() {
           <div className="aboutme-socials">
             <a target="_blank" href=""><i className="bi bi-instagram"></i></a>
             <a target="_blank" href="https://github.com/guiigle"><i className="bi bi-github"></i></a>
-            <a target="_blank" href=""><i className="bi bi-linkedin"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/gui-oliveira-dev/"><i className="bi bi-linkedin"></i></a>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ function HabilitiesSection() {
   const content: IconContentType[] = iconsContent
   const initialContent: IconContentType = {
     title: '...',
-    description: 'Passe o cursosr do mouse no card para ler*'
+    description: 'Passe o cursor do mouse no card para ler*'
   }
   const [habiliesContent, setHabilitiesContent] = useState<IconContentType>(initialContent);
 
