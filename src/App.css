@@ -1,0 +1,8 @@
+.in-progress {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 1.4rem;
+  padding: 20px;
+  color: rgb(252, 82, 82);
+}

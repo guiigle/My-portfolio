@@ -7,6 +7,7 @@ import ProjectsSection from "../../components/Projects";
 function Home() {
   return (
     <div>
+      <h1 className="in-progress">Site ainda em desenvolvimento</h1>
       <HeroSection />
       <AboutMeSection />
       <ProjectsSection />

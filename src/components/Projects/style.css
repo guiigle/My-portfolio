@@ -43,7 +43,7 @@
   text-align: center;
 }
 
-.project-card button {
+.project-card Link {
   border: none;
   padding: 5px;
   color: var(--accent-color);
